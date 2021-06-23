@@ -4,7 +4,7 @@
 # por input ingresado por usuario.
 
 l = int(input("Ingrese un valor: "))
-
+m = 0
 """
 Manera poco efectiva de hacerlo.
 
@@ -19,3 +19,8 @@ print ("")
 for i in range(l):
   i = (l - i)
   print ("*" * i)
+print ("")
+
+for j in range(l):
+  j = (j + 1)
+  print ("*" * j)
