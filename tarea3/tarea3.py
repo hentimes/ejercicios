@@ -18,8 +18,7 @@ print ("")
 # Imprime tercer triangulo invertido creciente
 for i in range(N):
   espacios = (N - i - 1)
-  print (" " * espacios, end="")
-  print ("*" * (i+1))
+  print (" " * espacios + "*" * (i+1))
 print ("")
 
 # Imprime cuarto triangulo invertido decreciente
